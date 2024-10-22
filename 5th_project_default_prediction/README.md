@@ -15,7 +15,7 @@ The methodology involves several steps:
 3. **Model Training**: Training various machine learning models and evaluating their performance using ROC-AUC.
 4. **Model Calibration**: Using techniques like Platt Scaling or Isotonic Regression to ensure the model provides accurate probability estimates.
 5. **Evaluation**: Evaluating the model using the Brier Score and other relevant metrics.
-6. **Deployment**: The model is deployed at Google Cloud, https://default-435318.lm.r.appspot.com/predict. You have to enter SK_ID_CURR from 1 to 30752, and the outcome will be probabilities of default and values of the most important features.
+
 
 ## Feature Engineering
 Feature engineering was a crucial part of this project. New features such as `EXT_SOURCE_MEAN` were created, which was very important for the model's performance. Other features included ratios and differences between income and expenses or credit and cumulative sums for payment behaviors.
